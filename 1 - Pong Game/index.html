@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="css/style.css" />
 		<title>Pong Game</title>
 	</head>
 	<body>
@@ -11,6 +12,16 @@
 			<h1>Web Development</h1>
 			<h2>Project 1</h2>
 			<h3>A JavaScript Game</h3>
+			<div class="form-group">
+				<input type="radio" name="slow" id="slow" />
+				<label for="slow">Slow</label>
+				<input type="radio" name="medium" id="medium" />
+				<label for="medium">Medium</label>
+				<input type="radio" name="fast" id="fast" />
+				<label for="fast">Fast</label> <button>reset</button>
+				<label for="">Strikes:</label> <label for="" id="strikes">0</label>
+				<label for="">Score:</label> <label for="" id="score">0</label>
+			</div>
 			<canvas id="court"></canvas>
 		</div>
 	</body>
